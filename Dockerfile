@@ -37,7 +37,7 @@ RUN mkdir -p $HOME/.fonts $HOME/.config/fontconfig/conf.d \
 
 WORKDIR /root
 
-RUN git clone https://github.com/samoshkin/tmux-config \
+RUN git clone https://github.com/andrewwatts/tmux-config \
   && ./tmux-config/install.sh \
   && rm -rf ./tmux-config
 

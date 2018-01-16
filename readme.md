@@ -34,7 +34,7 @@ Features
 - highlight focused pane
 - merge current session with existing one (move all windows)
 - configurable visual theme/colors, with some elements borrowed from [Powerline](https://github.com/powerline/powerline)
-- integration with 3rd party plugins: [tmux-sidebar](https://github.com/tmux-plugins/tmux-sidebar), [tmux-copycat](https://github.com/tmux-plugins/tmux-copycat), [tmux-open](https://github.com/tmux-plugins/tmux-open), [tmux-plugin-sysstat](https://github.com/samoshkin/tmux-plugin-sysstat)
+- integration with 3rd party plugins: [tmux-sidebar](https://github.com/tmux-plugins/tmux-sidebar), [tmux-copycat](https://github.com/tmux-plugins/tmux-copycat), [tmux-open](https://github.com/tmux-plugins/tmux-open), [tmux-plugin-sysstat](https://github.com/andrewwatts/tmux-plugin-sysstat)
 
 **Status line widgets**:
 
@@ -61,7 +61,7 @@ On OSX you can install latest 2.6 version with `brew install tmux`. On Linux it'
 
 To install tmux-config:
 ```
-$ git clone https://github.com/samoshkin/tmux-config.git
+$ git clone https://github.com/andrewwatts/tmux-config.git
 $ ./tmux-config/install.sh
 ```
 
@@ -307,7 +307,7 @@ Window tabs use Powerline arrows glyphs, so you need to install Powerline enable
 
 The right part of status line consists of following components:
 
-- CPU, memory usage, system load average metrics. Powered by [tmux-plugin-sysstat](https://github.com/samoshkin/tmux-plugin-sysstat) (dislaimed, that's my own development, because I haven't managed to find any good plugin with CPU and memory/swap metrics)
+- CPU, memory usage, system load average metrics. Powered by [tmux-plugin-sysstat](https://github.com/andrewwatts/tmux-plugin-sysstat) (dislaimed, that's my own development, because I haven't managed to find any good plugin with CPU and memory/swap metrics)
 - username and hostname (invaluable when you SSH onto remote host)
 - current date time
 - battery information
